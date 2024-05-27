@@ -8,12 +8,12 @@ function Banner() {
         <div className='relative h-[80vh]'>
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50'>
                 <div className='flex flex-col items-center space-y-2'>
-                    <h1 className='text-6xl font-bold text-white font-mono text-center'>WELCOME TO PINK RUFFLES BUEATY</h1>
-                    <h4 className='text-3xl font-semibold text-white font-mono'>THE ROYAL SERVICE</h4>
-                    <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet temporibus eligendi accusamus quis doloremque iure non hic optio deleniti! Quos non at id harum distinctio, deleniti inventore velit odio veritatis!</p>
+                    <h1 className='text-6xl font-bold text-[#eb34ae] font-mono text-center'>WELCOME TO PINK RUFFLES BUEATY</h1>
+                    <h4 className='text-3xl font-semibold text-[#eb34ae] font-mono'>THE ROYAL SERVICE</h4>
+                    <p className='text-[#eb34ae] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet temporibus eligendi accusamus quis doloremque iure non hic optio deleniti! Quos non at id harum distinctio, deleniti inventore velit odio veritatis!</p>
                     <div className='flex space-x-6 pt-5'>
-                        <button className='bg-transparent border rounded-sm text-white p-4 px-8 hover:bg-[#eb34ae]  hover:shadow-sm'>TAKE A LOOK</button>
-                        <button className='bg-transparent border rounded-sm text-white p-4 px-8 hover:bg-[#eb34ae] hover:shadow-sm'>GIFT VOUCHERS</button>
+                        <button className='bg-transparent border rounded-sm text-[#eb34ae] hover:text-white p-4 px-8 hover:bg-[#eb34ae]  hover:shadow-sm'>TAKE A LOOK</button>
+                        <button className='bg-transparent border rounded-sm text-[#eb34ae] hover:text-white p-4 px-8 hover:bg-[#eb34ae] hover:shadow-sm'>GIFT VOUCHERS</button>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 
 function Menubar() {
     return (
-        <div className='flex justify-between items-center p-3 px-8 shadow-md'>
+        <div className='sticky top-0 bg-white flex justify-between items-center p-3 px-8 shadow-md'>
             {/* LOGO */}
             <div>
                 <img src="/Logo.jpeg" alt="logo" className='w-32 aspect-video' />
